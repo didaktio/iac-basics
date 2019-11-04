@@ -1,0 +1,41 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>login</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+
+  <form [formGroup]="loginForm"
+        style="margin:100px"
+        (ngSubmit)="submit(loginForm.value)"
+        (keyup.enter)="submit(loginForm.value)">
+
+    <ion-item>
+      <ion-label>Email</ion-label>
+      <ion-input formControlName="email"
+                 debounce="1000"></ion-input>
+    </ion-item>
+    <ion-item class="error-message"
+              *ngIf="email.invalid && email.value">
+      <ion-label>Email is invalid</ion-label>
+    </ion-item>
+
+    <ion-item>
+      <ion-label>Password</ion-label>
+      <ion-input formControlName="password"
+                 debounce="1000"
+                 type="password"></ion-input>
+    </ion-item>
+    <ion-item class="error-message"
+              *ngIf="password.invalid && password.value">
+      <ion-label>Password is invalid</ion-label>
+    </ion-item>
+
+    <ion-button class="ion-float-right"
+                type="submit">
+      Login
+    </ion-button>
+  </form>
+
+</ion-content>

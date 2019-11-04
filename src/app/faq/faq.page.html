@@ -1,0 +1,142 @@
+<ion-header>
+    <ion-toolbar>
+      <ion-title>FAQ</ion-title>
+    </ion-toolbar>
+  </ion-header>
+  
+  <ion-content #content>
+  
+    <ion-grid>
+  
+      <ion-row class="questions">
+        <ion-col size="12"
+                 size-md="4">
+          <h3>Overview</h3>
+          <span (click)="scrollTo('whatIsMyapp')">What is my-app?</span>
+          <span (click)="scrollTo('whyShouldIUseMyapp')">Why should I use my-app?</span>
+          <span (click)="scrollTo('isMyappFree')">Is my-app free?</span>
+        </ion-col>
+  
+        <ion-col size="12"
+                 size-md="4">
+          <h3>Usage</h3>
+          <span (click)="scrollTo('doIHaveToPay')">Do I have to pay to use my-app?</span>
+          <span (click)="scrollTo('howDoIShareMy')">How do I share my my-app profile?</span>
+        </ion-col>
+  
+        <ion-col size="12"
+                 size-md="4">
+          <h3>Login/Signup</h3>
+          <span (click)="scrollTo('howDoISignUp')">How do I sign up?</span>
+        </ion-col>
+  
+  
+        <ion-col size="12"
+                 size-md="4">
+          <h3>Other</h3>
+          <span (click)="scrollTo('howDoIContactSupport')">How do I contact support?</span>
+          <span (click)="scrollTo('whenWillLiveChatBe')">When will live chat be available?</span>
+          <span (click)="scrollTo('canIDeleteOrDeactivate')">Can I delete or deactivate my account?</span>
+        </ion-col>
+  
+      </ion-row>
+  
+  
+      <ion-row class="ion-justify-content-center ion-text-center">
+        <ion-col size="12"
+                 size-md="8">
+  
+          <!----------------------------------- Overview ----------------------------------->
+          <h3>Overview</h3>
+  
+          <div class="answer-block">
+            <h5 id="whatIsMyapp">What is my-app?</h5>
+            <p>
+              An on-the-fly-ever-incomplete-but-useful application built for the purpose of a course on developing with
+              awesome tools such as Ionic and Angular.
+            </p>
+          </div>
+  
+          <div class="answer-block">
+            <h5 id="whyShouldIUseMyapp">Why should I use my-app?</h5>
+            <p>Here's a few reasons:</p>
+  
+            <ol>
+              <li>
+                To learn how to develop with Ionic and Angular, and other such web frameworks.
+              </li>
+              <li>
+                To learn how not to develop.
+              </li>
+              <li>
+                Reasons one and two.
+              </li>
+            </ol>
+          </div>
+  
+  
+          <!----------------------------------- Signup ----------------------------------->
+          <h3>Signup</h3>
+  
+          <div class="answer-block">
+            <h5 id="howDoISignUp">How do I sign up?</h5>
+            <p>
+              On the login page, locate the purple 'signup' button. Clicking this will take you to a form which once
+              submitted will make you a fully fledged member of the my-app club!
+            </p>
+          </div>
+  
+          <div class="answer-block">
+            <h5 id="isMyappFree">Is my-app free?</h5>
+            See the question 'Do I have to pay to use my-app?'.
+          </div>
+  
+  
+          <!----------------------------------- Usage ----------------------------------->
+          <h3>Usage</h3>
+  
+          <div class="answer-block">
+            <h5 id="doIHaveToPay">Do I have to pay to use my-app?</h5>
+            <p>
+              Well - only what you paid to access the course. Quite unbelievably, my-app is free!
+            </p>
+          </div>
+  
+          <div class="answer-block">
+            <h5 id="howDoIShareMy">How do I share my my-app profile?</h5>
+            <p>
+              This feature is in development.
+            </p>
+          </div>
+  
+  
+          <!----------------------------------- Other ----------------------------------->
+          <h3>Other</h3>
+  
+          <div class="answer-block">
+            <h5 id="howDoIContactSupport">How do I contact support?</h5>
+            <p>
+              Please email us at: support@myapp.com
+            </p>
+          </div>
+  
+          <div class="answer-block">
+            <h5 id="whenWillLiveChatBe">When will live chat be available?</h5>
+            <p>
+              When there are enough users in need of it.
+            </p>
+          </div>
+  
+          <div class="answer-block">
+            <h5 id="canIDeleteOrDeactivate">Can I delete or deactivate my profile?</h5>
+            <p>
+              Yes. Please email with your name and login email via support@myapp.com
+            </p>
+          </div>
+  
+        </ion-col>
+      </ion-row>
+  
+    </ion-grid>
+    
+  </ion-content>

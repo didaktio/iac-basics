@@ -1,0 +1,15 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>my-profile</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+
+  <p style="margin: 100px" *ngFor="let item of ss.someEssentialData.prop5 | keyvalue; let i = index">{{(i)}} {{item.key | titlecase}}: {{item.value}}</p>
+
+  <h3 [hidden]="hidden">Hidden</h3>
+
+  <h3 *ngIf="notHidden">Not Hidden</h3>
+
+</ion-content>
