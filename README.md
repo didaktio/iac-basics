@@ -12,3 +12,4 @@ Source code from the `Basics` section of the [Ionic Angular Course](https://gith
 
 ## Possible Next Steps
 * Play around with the code, try running it on different devices, rebuild the FAQ page.
+
