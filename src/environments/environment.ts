@@ -5,7 +5,7 @@
 export const environment = {
   production: false,
   firebaseConfig: {
-    apiKey: "AIzaSyDpXBkNKSItDynz3h0YsjKVy_fn7X79IbE",
+    apiKey: "AIzaSyCnqEmfkElWw5V8liLpvlJRX33YRCjbZZM",
     authDomain: "iac-basics.firebaseapp.com",
     databaseURL: "https://iac-basics.firebaseio.com",
     projectId: "iac-basics",
@@ -23,4 +23,4 @@ export const environment = {
  * This import should be commented out in production mode because it will have a negative impact
  * on performance if an error is thrown.
  */
-// import 'zone.js/dist/zone-error';  // Included with Angular CLI.
+import 'zone.js/dist/zone-error';  // Included with Angular CLI.

@@ -1,7 +1,7 @@
 export const environment = {
   production: true,
   firebaseConfig: {
-    apiKey: "AIzaSyDpXBkNKSItDynz3h0YsjKVy_fn7X79IbE",
+    apiKey: "AIzaSyCnqEmfkElWw5V8liLpvlJRX33YRCjbZZM",
     authDomain: "iac-basics.firebaseapp.com",
     databaseURL: "https://iac-basics.firebaseio.com",
     projectId: "iac-basics",
